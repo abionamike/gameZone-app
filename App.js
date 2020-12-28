@@ -1,10 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { useFonts } from 'expo-font';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import HomeStack from './routes/HomeStack';
+import MainStack from './routes/MainStack';
 import AboutStack from './routes/AboutStack';
 
 export default function App() {
@@ -23,7 +23,7 @@ export default function App() {
     <View style={styles.container}>
       <NavigationContainer>
         <Drawer.Navigator>
-          <Drawer.Screen name="Home" component={HomeStack} />
+          <Drawer.Screen name="Home" component={MainStack} />
           <Drawer.Screen name="About" component={AboutStack} />
         </Drawer.Navigator>
       </NavigationContainer>
