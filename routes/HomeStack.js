@@ -1,10 +1,10 @@
 import React from 'react';
+import { Image } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Home from '../screens/Home';
 import ReviewDetails from '../screens/ReviewDetails';
 import { screenOptions } from '../styles/global';
 import Header from '../shared/Header';
-import { Image, ImageBackground } from 'react-native';
 
 const HomeStack = () => {
     const Stack = createStackNavigator();

@@ -1,9 +1,9 @@
 import React from 'react';
+import { Image } from 'react-native';
 import { createStackNavigator } from '@react-navigation/stack';
 import About from '../screens/About';
 import { screenOptions } from '../styles/global';
 import Header from '../shared/Header';
-import { Image } from 'react-native';
 
 const AboutStack = () => {
   const Stack = createStackNavigator();
