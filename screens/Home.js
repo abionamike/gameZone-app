@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, Text, FlatList, TouchableOpacity, Button, Modal, TouchableWithoutFeedback, Keyboard } from 'react-native';
+import { StyleSheet, View, Text, FlatList, TouchableOpacity, Modal, TouchableWithoutFeedback, Keyboard } from 'react-native';
 import Card from '../shared/Card';
 import { globalStyles } from '../styles/global';
 import { MaterialIcons } from '@expo/vector-icons'; 
@@ -44,7 +44,6 @@ const Home = ({ navigation }) => {
                     </TouchableOpacity>
                 )}
             />
-            <Button title="Open Modal" onPress={() => navigation.navigate('Modal')} />
         </View>
     )
 }

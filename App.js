@@ -4,7 +4,7 @@ import { StyleSheet, View } from 'react-native';
 import { useFonts } from 'expo-font';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import MainStack from './routes/MainStack';
+import HomeStack from './routes/HomeStack';
 import AboutStack from './routes/AboutStack';
 
 export default function App() {
@@ -23,7 +23,7 @@ export default function App() {
     <View style={styles.container}>
       <NavigationContainer>
         <Drawer.Navigator>
-          <Drawer.Screen name="Home" component={MainStack} />
+          <Drawer.Screen name="Home" component={HomeStack} />
           <Drawer.Screen name="About" component={AboutStack} />
         </Drawer.Navigator>
       </NavigationContainer>
