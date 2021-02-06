@@ -28,6 +28,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": ""
+    "description": "This a gameZone app where uses can make reviews. \nUsers can create a new review, check review details.\nThis app incorporates stack and drawer navigations"
   }
 }

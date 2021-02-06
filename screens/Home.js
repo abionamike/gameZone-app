@@ -8,9 +8,48 @@ import ReviewForm from './ReviewForm';
 const Home = ({ navigation }) => {
     const [modalOpen, setModalOpen] = useState(false);
     const [reviews, setReviews] = useState([
-        { title: 'Zelda, Breath of Fresh Air', rating: 5, body: 'lorem ipsum', key: '1' },
-        { title: 'Gotta Catch Them All (again)', rating: 4, body: 'lorem ipsum', key: '2' },
-        { title: 'Not So "Final" Fantasy', rating: 3, body: 'lorem ipsum', key: '3' },
+        { 
+            title: 'Zelda, Breath of Fresh Air', 
+            rating: 5, 
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium, maxime iure, harum iste mollitia temporibus quasi, nostrum aliquid vel eaque hic modi ex ut amet. Nostrum quos ullam temporibus.', 
+            key: '1' 
+        },
+        { 
+            title: 'Gotta Catch Them All (again)', 
+            rating: 4, 
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium, maxime iure, harum iste mollitia temporibus quasi, nostrum aliquid vel eaque hic modi ex ut amet. Nostrum quos ullam temporibus.', 
+            key: '2' 
+        },
+        { 
+            title: 'Not So "Final" Fantasy', 
+            rating: 3, 
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium, maxime iure, harum iste mollitia temporibus quasi, nostrum aliquid vel eaque hic modi ex ut amet. Nostrum quos ullam temporibus.', 
+            key: '3' 
+        },
+        { 
+            title: 'Away in a manger', 
+            rating: 3, 
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium, maxime iure, harum iste mollitia temporibus quasi, nostrum aliquid vel eaque hic modi ex ut amet. Nostrum quos ullam temporibus.', 
+            key: '4' 
+        },
+        { 
+            title: 'What do you have to say', 
+            rating: 3, 
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium, maxime iure, harum iste mollitia temporibus quasi, nostrum aliquid vel eaque hic modi ex ut amet. Nostrum quos ullam temporibus.', 
+            key: '5' 
+        },
+        { 
+            title: 'Story time', 
+            rating: 3, 
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium, maxime iure, harum iste mollitia temporibus quasi, nostrum aliquid vel eaque hic modi ex ut amet. Nostrum quos ullam temporibus.', 
+            key: '6' 
+        },
+        { 
+            title: 'Twice as tall', 
+            rating: 3, 
+            body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam praesentium, maxime iure, harum iste mollitia temporibus quasi, nostrum aliquid vel eaque hic modi ex ut amet. Nostrum quos ullam temporibus.', 
+            key: '7' 
+        },
     ]);
     
     const addReview = (review) => {
